@@ -1,0 +1,102 @@
+﻿html, body {
+    background-color: #192934;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header {
+    display: block;
+    background-image: url("http://obl.me/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 80px;
+    width: 100%;
+    background-color: #192228;
+}
+
+.content {
+    /*height: 75vh;*/
+    margin-left: 5%;
+    margin-right: 15%;
+    background-color: #235279;
+    /*padding: 5ch;*/
+}
+
+.row {
+    /*display: grid;*/
+    color: white;
+    grid-template-columns: repeat(2, 0.1fr);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    padding: 2ex 3em 3em 2ex;
+}
+
+    .row > div {
+        height: auto;
+    }
+
+    .row .upper {
+        text-transform: uppercase;
+    }
+
+    .row .name {
+        padding: 2ex 2em 2ex 2em;
+        background-color: #214a6b;
+    }
+    .row .post {
+    }
+    .name {
+        width: 10em;
+        margin-top: 4ex;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .post span{
+        display:block;
+    }
+
+    .nomap{
+        margin: 2ex 2em 2ex 2em;
+    }
+
+.text {
+    white-space: pre-line;
+    color: rgb(126, 168, 200);
+}
+
+.details {
+    margin-top: 2ex;
+}
+
+.details div{
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.box {
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 2px 2px #17354f;
+    background-color: #214a6b;
+}
+
+.post {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+
+.map {
+    height: 20ex;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
